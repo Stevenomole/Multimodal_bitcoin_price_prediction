@@ -25,7 +25,7 @@ setup(
     install_requires=get_requirements("requirements.txt"),
     entry_points={
         "console_scripts": [
-            "bitcoin_price_prediction=src.main:main",
+            "bitcoin_price_prediction=main:main",
         ],
     },
     
